@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery - AJAX - Rakefet</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css"/>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="ui header">Countries For You</h1>
+
+      <form class="ui large form">
+        <div class="ui stacked segment">
+          <h3 class="ui blue header">Search Here...</h3>
+          <div class="field">
+            <div class="ui left icon input">
+              <i class="search icon"></i>
+              <input type="text" name="country" placeholder="Insert Country Name...">
+            </div>
+          </div>
+          <button class="fluid ui blue button" type="submit" name="filter">Filter</button>
+          <br />
+          <button class="fluid ui blue button" type="button" name="all">View All Countries</button>
+        </div>
+      </form>
+
+    </header>
+
+    <main>
+      <div class="ui four cards" id="countrieslist">      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+
+
+</html>
